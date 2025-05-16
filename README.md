@@ -264,5 +264,5 @@
 
 ## 🔗 Support
 
-- **💬 Telegram Support Group**: [Join Now](https://t.me/movie_and_series_hub4vf)
-- **📣 Telegram Channel**: [Follow Updates](https://t.me/BOT_UPDATE_HUB4VF)
+- **💬 Telegram Support Group**: [Join Now](https://t.me/ALXMOVIEANDBOT)
+- **📣 Telegram Channel**: [Follow Updates](https://t.me/ALXMOVIEANDBOT)
