@@ -74,14 +74,14 @@ class TelegraphHelper:
                     nxt_page += 1
             await self.edit_page(
                 path=path[prev_page],
-                title="HUB4VF-FILTER-BOT",
+                title="FILTER-BOT",
                 content=content,
             )
 
 
 telegraph = TelegraphHelper(
-    "HUB4VF-FILTER-BOT",
-    "https://t.me/BOT_UPDATE_HUB4VF",
+    "FILTER-BOT",
+    "https://t.me/Requestyourmovie243",
 )
 
 print(__name__)
