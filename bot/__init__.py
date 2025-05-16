@@ -258,7 +258,7 @@ if len(OWNER_CONTACT_LNK) == 0:
 MAIN_CHNL_USRNM = environ.get("MAIN_CHNL_USRNM", "") # your main channel username without @
 if MAIN_CHNL_USRNM == 0:
     LOGGER.warning("Update MAIN_CHNL_USRNM Variable")
-    MAIN_CHNL_USRNM = 'HUB4VF'
+    MAIN_CHNL_USRNM = 'TheMvieHub1234'
 
 UPDT_BTN_URL = environ.get('UPDT_BTN_URL', '') #if you set url then bot will add update button with file else no button generate
 
@@ -279,7 +279,7 @@ else:
 START_PICS = environ.get('START_PICS', '')
 if len(START_PICS) == 0:
     Warning("START_PICS Not Found, Using defult value")
-    START_PICS = "https://jpcdn.it/img/9c1078d5bb5ff7d526eae590db3d3d27.jpg"
+    START_PICS = "https://graph.org/file/8b94e3e8c8cc358f0a83f-4b5786909e61937a62.jpg https://graph.org/file/69cc4a7f39edc00d3e3fc-ccf6802e7196bbae73.jpg https://graph.org/file/01e2c1270b4212616e7ee-cd14e6b709b7e48211.jpg https://graph.org/file/5dfe0394d86acbdc55d79-b6960dbbd28d7833a1.jpg https://graph.org/file/f1c7fd1e3d141c1124b37-23a1eb1b5183e636e5.jpg https://graph.org/file/f100b17824e55252bf98b-3d027f7d1995e8dd15.jpg https://graph.org/file/f21e2111ae3fc029dc042-fbac0bd8810f1941ba.jpg https://graph.org/file/8e936190cf94e2a956584-6e9eeaf8f73a79bf8e.jpg https://graph.org/file/cb657ad7c88dc941e38fa-5775b61d201dfb20e1.jpg https://graph.org/file/80065f6bc734e5bc4e02b-299776f28732501abd.jpg https://graph.org/file/8d5dc43f2c9cafcc5cfb7-82e89b6849bdbd9288.jpg https://graph.org/file/dc52353057e5302364c06-0d21b8ac0d0f9aecf2.jpg https://graph.org/file/e459a3edecd2a74956c86-cf3014b7edc55a2417.jpg https://graph.org/file/49a630f7733466a8ec953-14428eaa959f0877a5.jpg https://graph.org/file/b53218bd506b6295d9b9a-cfb04f8c9337dd3980.jpg https://graph.org/file/a782efb6d69534d69036b-86802434f050ae9c85.jpg https://graph.org/file/1f026955baa41a6fe9e29-a309bc8dc161f1aa39.jpg https://graph.org/file/4ff5527688d990aac645e-61c3239bee96ef61a1.jpg https://graph.org/file/27234666f7c806c9473c5-0c34d8daf3838eb473.jpg https://graph.org/file/2f59d3ac52996bc89724b-f8e661479bc69253ad.jpg https://graph.org/file/2a71dd781481d06718da2-964c874162d83d6ebb.jpg https://graph.org/file/b1bcd7c03490e9eee4a74-0bc871f7d16e1ae778.jpg https://graph.org/file/8902f76f07f6ae890771b-fddf27adab9bbf9cea.jpg https://graph.org/file/8c7ecc0f0af033b1d134d-80cac6f0c418d475d0.jpg"
 
 SPELL_IMG = environ.get("SPELL_IMG", "")
 if len(SPELL_IMG) == 0:
