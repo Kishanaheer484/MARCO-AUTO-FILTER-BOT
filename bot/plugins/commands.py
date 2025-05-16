@@ -602,7 +602,7 @@ async def handle_extract_data(client, message):
         if not (replied_msg.video or replied_msg.document):
             return await message.reply_text("❗ Please reply to a video or media file")
         
-        m = await message.reply_sticker("CAACAgUAAxkBAAInAAFn2bDf2ce46H2xWWDXcs8M9A1f_AACNQADwSQxMbv6A1ITynAfHgQ")
+        m = await message.reply_sticker("CAACAgIAAxkBAAMSaCdQoLCFr3UNcxYq4T4aLMW9s78AAjMAAw220hlFYXDsneFBgh4E")
         media = replied_msg.video or replied_msg.document
         original_filename = media.file_name
         download_path = f"downloads/temp/temp_{message.id}.mp4"
