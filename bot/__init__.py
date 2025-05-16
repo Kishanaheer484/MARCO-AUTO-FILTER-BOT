@@ -253,7 +253,7 @@ if len(FSUB_IDS) == 0:
 
 OWNER_CONTACT_LNK = environ.get("OWNER_CONTACT_LNK", "") #owner contact link for user
 if len(OWNER_CONTACT_LNK) == 0:
-    OWNER_CONTACT_LNK = "https://t.me/ContactownerHUB4VF_bot"
+    OWNER_CONTACT_LNK = "https://t.me/Indar_off"
 
 MAIN_CHNL_USRNM = environ.get("MAIN_CHNL_USRNM", "") # your main channel username without @
 if MAIN_CHNL_USRNM == 0:
