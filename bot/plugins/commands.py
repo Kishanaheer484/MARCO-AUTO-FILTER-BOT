@@ -45,9 +45,9 @@ async def authorize_user_start_cmd(client, message):
     else:
         # Create buttons using InlineKeyboardButton
         if not user:
-            m = await message.reply_sticker("CAACAgUAAxkBAAENS1xnVboNBPNdI3Dz6LFvQjWji6I3aAACAhIAAtnisFZ0ElP0nL43izYE")
+            m = await message.reply_sticker("CAACAgIAAxkBAAMSaCdQoLCFr3UNcxYq4T4aLMW9s78AAjMAAw220hlFYXDsneFBgh4E")
         else:
-            m = await message.reply_sticker("CAACAgIAAxkBAAENS11nVboN1pDp3u_nYcv9mLQmaV5cwQAC8DUAAlXR-EikRveMrnUwszYE")
+            m = await message.reply_sticker("CAACAgIAAxkBAAMSaCdQoLCFr3UNcxYq4T4aLMW9s78AAjMAAw220hlFYXDsneFBgh4E")
         await sleep(2)
         await delete_message(m)
 
@@ -84,9 +84,9 @@ async def normal_user_start_cmd(client, message):
     else:
         #get commands for verify
         if not user:
-            m = await message.reply_sticker("CAACAgUAAxkBAAENS1xnVboNBPNdI3Dz6LFvQjWji6I3aAACAhIAAtnisFZ0ElP0nL43izYE")
+            m = await message.reply_sticker("CAACAgIAAxkBAAMSaCdQoLCFr3UNcxYq4T4aLMW9s78AAjMAAw220hlFYXDsneFBgh4E")
         else:
-            m = await message.reply_sticker("CAACAgIAAxkBAAENNihnRCglpIFQNj9-e-xbgqpjNvFznAAC9hIAAin9SElmvNqzuDEHKjYE")
+            m = await message.reply_sticker("CAACAgIAAxkBAAMSaCdQoLCFr3UNcxYq4T4aLMW9s78AAjMAAw220hlFYXDsneFBgh4E")
         await sleep(2)
         await delete_message(m)
 
@@ -433,9 +433,9 @@ async def get_start_msg_buttons(key=None, query=None):
             if is_true:
                 url = config_dict['OWNER_CONTACT_LNK']
             else:
-                url = "https://t.me/xxxxxx"
+                url = "https://t.me/Indar_off"
         else:
-            url = "https://t.me/xxxxxx"
+            url = "https://t.me/Indar_off"
         button_maker.add_button('📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ', url=url)
         button_maker.add_row([('⇋ ʙᴀᴄᴋ ⇋', "sbthelp about"), ('• ᴄʟᴏsᴇ •', 'sbthelp close_data')])
     elif key == 'source':
